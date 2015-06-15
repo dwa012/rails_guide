@@ -11,7 +11,7 @@
 
 ####Creating the app via the terminal
 
- - Create a new directory for the your Rails project
+- Create a new directory for the your Rails project
 ```bash
 mkdir -p ~/Development/su15/CS4990/<name>
 ```
