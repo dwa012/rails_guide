@@ -40,6 +40,7 @@ production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
 ```
+
 ####Create the Heroku app
 ```bash
 heroku create
