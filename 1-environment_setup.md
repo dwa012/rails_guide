@@ -54,17 +54,17 @@ echo "db_home: windows" >> /etc/nsswitch.conf
 - Close the `Cygwin Terminal` app
 
 - Open RubyMine so we can change the terminal widget to use Cygwin
-	- Open Settings
-	```
-	File->Settings
-	```
- - Search for `terminal`
- - Select the 3 dots button, in step 2 of the following image
- 
- ![enter image description here](http://gdurl.com/FOZT)	
 
- - Navigate and select the Cygwin.bat file, as in the following image
+- Open Settings
+```
+File->Settings
+```
+- Search for `terminal`
+
+- Select the 3 dots button, in step 2 of the following image
  
- ![enter image description here](http://gdurl.com/uLVI)
+![enter image description here](http://gdurl.com/FOZT)	
+
+- Navigate and select the Cygwin.bat file, as in the following image
  
-###You should be configured and ready to go.
+![enter image description here](http://gdurl.com/uLVI)
