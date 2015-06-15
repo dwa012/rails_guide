@@ -45,7 +45,7 @@ production:
 heroku create
 ```
 > **Note**: The web address will print to screen, so take note of the location so you can view it.
-> 
+
 ####Deploy the app to the Heroku server
 ```bash
 git push heroku master
