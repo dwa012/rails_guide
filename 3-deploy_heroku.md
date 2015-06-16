@@ -27,6 +27,7 @@ gem 'rails_12factor', group: :production
 
 ####Update the ``config/database.yml`` to have the proper production settings
 - Change the following at the bottom of the file
+
 ```yaml
 production:
     <<: *default
@@ -34,7 +35,9 @@ production:
     username: workspace
     password: <%= ENV['WORKSPACE_DATABASE_PASSWORD'] %>
 ```
+
 - To this
+
 ```yaml
 production:
     <<: *default
