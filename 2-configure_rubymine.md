@@ -33,7 +33,7 @@ vagrant ssh
 ```
 - Create the Rails app
 ```bash
-rails new ~/workspace
+rails new ~/workspace -d postgresql
 ```
 - Create and initialize the database
 ```bash
