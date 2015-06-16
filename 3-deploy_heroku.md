@@ -29,16 +29,16 @@ gem 'rails_12factor', group: :production
 - Change the following at the bottom of the file
 ```yaml
 production:
-  <<: *default
-  database: workspace_production
-  username: workspace
-  password: <%= ENV['WORKSPACE_DATABASE_PASSWORD'] %>
+    <<: *default
+    database: workspace_production  
+    username: workspace
+    password: <%= ENV['WORKSPACE_DATABASE_PASSWORD'] %>
 ```
 - To this
 ```yaml
 production:
-  <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+    <<: *default
+    url: <%= ENV['DATABASE_URL'] %>
 ```
 
 ####Create the Heroku app
