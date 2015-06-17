@@ -30,7 +30,7 @@ gem 'rails_12factor', group: :production
 
 ```
 production:
-&nbsp;&nbsp;<<: *default
+    <<: *default
     database: workspace_production  
     username: workspace
     password: <%= ENV['WORKSPACE_DATABASE_PASSWORD'] %>
