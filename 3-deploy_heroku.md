@@ -16,7 +16,7 @@ We will need to make some small modifications to our existing app
 #### Create a ``git`` repository, if you don't have one already
 ```bash
 git init
-curl -o .gitignore https://cdn.rawgit.com/dwa012/794d1bf61602689e0b32/raw/
+curl -o .gitignore https://cdn.rawgit.com/dwa012/794d1bf61602689e0b32/raw
 git commit -a -m 'First Commit'
 ```
 #### Add the 12 factor gem to the ``Gemfile``
