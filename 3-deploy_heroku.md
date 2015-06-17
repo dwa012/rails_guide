@@ -28,7 +28,7 @@ gem 'rails_12factor', group: :production
 ####Update the ``config/database.yml`` to have the proper production settings
 - Change the following at the bottom of the file
 
-```yaml
+```
 production:
     <<: *default
     database: workspace_production  
@@ -38,7 +38,7 @@ production:
 
 - To this
 
-```yaml
+```
 production:
     <<: *default
     url: <%= ENV['DATABASE_URL'] %>
