@@ -1,4 +1,6 @@
 
+# In Progress.....
+
 ### Updating the Vagrant Box
 
 ----------
@@ -13,4 +15,18 @@ When you run ``vagrant up`` you will get a message in yellow/gold similar to the
 
 To update just run ``vagrant box update`` to download the new build.
 
-If the VM is already running, then you may want to do a ``halt`` and then do another ``up`` to make sure all the changes are integrated.
+---------- 
+
+#### Rebuild the Vagrant Box
+
+You may have to do a ``vagrant destroy`` so you can rebuild the box with the new changes.
+
+> *Warning*: The destroy will completley erase the VM including the database.
+
+To get the VM back up and running you can run the following:
+
+```
+vagrant up
+vagrant ssh -c "cd ~/; bundle isntall; rake db:create; rake db:migrate"
+vagrant ssh -c "rake db:migrate"
+```
