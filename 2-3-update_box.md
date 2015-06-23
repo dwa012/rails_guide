@@ -1,7 +1,4 @@
-
-# In Progress.....
-
-### Updating the Vagrant Box
+## Updating the Vagrant Box
 
 ----------
 
@@ -19,14 +16,14 @@ To update just run ``vagrant box update`` to download the new build.
 
 #### Rebuild the Vagrant Box
 
-You may have to do a ``vagrant destroy`` so you can rebuild the box with the new changes.
+You will have to do a ``vagrant destroy`` so you can rebuild the box with the new changes.
 
-> *Warning*: The destroy will completley erase the VM including the database.
+> **Warning**: The destroy will completley erase the VM including the database.
 
-To get the VM back up and running you can run the following:
+To use the new box, run the following set of commands on your host machine
 
 ```
+vagrant destroy
 vagrant up
-vagrant ssh -c "cd ~/; bundle isntall; rake db:create; rake db:migrate"
-vagrant ssh -c "rake db:migrate"
+vagrant ssh -c "cd ~/; bundle install; rake db:create; rake db:migrate"
 ```
