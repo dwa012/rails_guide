@@ -5,7 +5,7 @@ Each chapter is setup to accomplish one specific task. For the most part the cha
 * [Chapter 1 - Environment Config](1-environment_setup.md)
 * [Chapter 2 - Vagrant](2-vagrant.md) 
   * [VagrantFile](2-1-vagrantfile.md)
-  * [Managing](2-2-manange_box.md)  
+  * [Managing](2-2-manage_box.md)  
   * [Update Box](2-3-update_box.md) 
   * [Troubleshooting](2-9-troubleshooting.md)
   	* [Port Forward Error](2-9-1-port_forward.md)
