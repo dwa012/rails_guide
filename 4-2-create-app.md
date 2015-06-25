@@ -12,7 +12,7 @@ heroku create
 
 > **Note**: The web address and application name will print to screen, so take note of it.
 
-#### Creation via the eb console
+#### Creation via the web console
 
 You can create an application from your web console and use that app by following the instructions below.
 
