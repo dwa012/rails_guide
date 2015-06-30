@@ -19,6 +19,7 @@ We will need to make some small modifications to our existing app
 ```
 git init
 curl -o .gitignore https://cdn.rawgit.com/dwa012/794d1bf61602689e0b32/raw
+git add .
 git commit -a -m 'First Commit'
 ```
 
