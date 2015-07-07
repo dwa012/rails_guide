@@ -19,6 +19,7 @@ Each chapter is setup to accomplish one specific task. For the most part the cha
   * [.gitlab-ci.yml](5-1-gitlab_ci_yml.md) 
   * [Environment Variables](5-2-gitlab_ci_env_vars.md)
   * [Runner Setup](5-3-gitlab_ci_runner_setup.md)
+  * [Gitlab Environment](5-4-gitlab_environment.md)
 * [Chapter 6 - Snippets](6-collection-of-snippets.md)
   * [Gravatar](6-1-user_gravatar.md) 
   * [Gems](6-2-gems.md)
