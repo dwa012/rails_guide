@@ -31,3 +31,23 @@
 #### [HAML](https://github.com/indirect/haml-rails)
 
 - Gem for adding Haml capabilities to your applicatoion. Haml can make it easier to write HTML, but requires a bit of learning.
+
+----------
+
+### Testing gems
+
+#### [Rspec](https://github.com/rspec/rspec-rails)
+
+- Gem for creating tests
+
+#### [FactoryGirlRails](https://github.com/thoughtbot/factory_girl_rails)
+
+- Gem for creating factories for testing
+
+#### [ffaker](https://github.com/ffaker/ffaker)
+
+- Gem for createing fake test data
+
+#### [DatabaseCleaner](https://github.com/DatabaseCleaner/database_cleaner)
+
+- Gem for cleaning the database before test runs.
