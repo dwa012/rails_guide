@@ -1,4 +1,4 @@
-#Rails guide for CSCI 4990 Summer 2015
+#Rails guide for CSCI 4990
 
 Welcome to the Ruby on Rails an Application Approach.
 

@@ -86,7 +86,7 @@ exit
 - In the `Ruby interpreterpath` erase the `/usr/bin/ruby` text and paste the following in.
 
 ```bash
-/home/vagrant/.rvm/gems/ruby-2.2.2@global
+/home/vagrant/.rvm/gems/ruby-2.3.1@global
 ```
 - The popup should now be similar to the following.
 
